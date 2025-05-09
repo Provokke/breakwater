@@ -1,0 +1,10 @@
+{
+  "listen": ":8080",
+  "upstreams": ["http://127.0.0.1:9001", "http://127.0.0.1:9002"],
+  "rate_per_second": 10,
+  "burst": 20,
+  "trust_forwarded": false,
+  "health_path": "/healthz",
+  "health_interval": "5s",
+  "health_timeout": "2s"
+}
