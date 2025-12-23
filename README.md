@@ -87,3 +87,4 @@ go test -race -count=1 ./...
 - Config: defaults, duration parsing, error cases, loading from a file (4).
 - Proxy: forwarding, round-robin across backends, per-client 429s and refill, spoofed headers ignored, forwarded headers, host kept, 503, 502 and marking down, status endpoint (10).
 - Health checker: down and up transitions, unreachable upstreams, stopping on cancel (3).
+
