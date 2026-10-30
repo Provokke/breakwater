@@ -286,3 +286,4 @@ func TestCheckerRunStopsOnCancel(t *testing.T) {
 		t.Fatal("Run did not stop after cancel")
 	}
 }
+
