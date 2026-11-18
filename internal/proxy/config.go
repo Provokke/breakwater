@@ -90,4 +90,3 @@ func LoadConfig(path string) (Config, error) {
 	}
 	return ParseConfig(data)
 }
-
